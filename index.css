@@ -96,7 +96,7 @@ a {
     color: rgba(231, 231, 231, 0.29);
 
     bottom: -16%;
-    left: -5%;
+    left: 5%;
     font-weight: bold;
     transition: all 3s;
 }
@@ -679,7 +679,7 @@ a {
     }
 
     .contactus-sub-heading {
-        font-size: 3rem;
+        font-size: 2rem;
         color: var(--bgOrange);
         padding-top: 3rem;
         margin-left: 1px;
