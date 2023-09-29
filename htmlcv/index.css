@@ -10,7 +10,7 @@
 }
 
 :root {
-    --bgOrange: #e84949;
+    --bgOrange: #cd4e1c;
 }
 
 #wrapper {
@@ -19,9 +19,11 @@
     overflow-x: hidden;
 }
 
+
 .container {
     width: 1200px;
-    margin: 0 auto;
+    margin: 0;
+
 }
 
 .navbar {
@@ -29,6 +31,7 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 1rem;
+    margin: 0 5px;
 }
 
 .logo {
@@ -188,6 +191,7 @@ a {
     transition: all 1s;
     animation: scaleImage 5s linear infinite;
     border-radius: 20px;
+    margin-right: 10px;
 }
 
 .user-image img {
@@ -624,6 +628,7 @@ a {
     .skills-container {
         flex-direction: column;
         gap: 0;
+        left: 85px;
 
     }
 
@@ -637,12 +642,12 @@ a {
 
 }
 
-@media (min-width:320px) and (max-width: 567px) {
+@media (min-width:300px) and (max-width: 567px) {
     .skills-container {
 
         flex-direction: column;
         top: -100px;
-        left: -60px;
+        left: -55px;
         padding: 10px;
         gap: 1rem;
     }
@@ -665,6 +670,21 @@ a {
         padding-left: 10px;
     }
 
+    .footer-wrapper {
+        flex-direction: column;
+        margin: 5px 10px;
+        flex-direction: column;
+
+
+    }
+
+    .contactus-sub-heading {
+        font-size: 3rem;
+        color: var(--bgOrange);
+        padding-top: 3rem;
+        margin-left: 1px;
+
+    }
 }
 
 .skills-container {
@@ -709,6 +729,7 @@ a {
     z-index: -5;
     transform: translate(-50%, -50%);
     animation: blobAnimate 3s linear infinite;
+
 }
 
 @keyframes blobAnimate {
@@ -751,19 +772,20 @@ a {
 .contactus-form-container {
     width: 100%;
     background-color: rgb(231, 231, 231);
+
 }
 
-.contactus-heading {
-    font-size: 5rem;
-    color: var(--bgOrange);
-    padding-top: 2rem;
-}
 
 .contactus-sub-heading {
-    font-size: 3rem;
-    color: #343d68aa;
+    font-size: 4rem;
+    color: var(--bgOrange);
+    padding-top: 2rem;
     text-transform: capitalize;
+    margin-left: 25px;
+
 }
+
+
 
 .contactus-form-container {
     width: 100%;
